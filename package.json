@@ -1,0 +1,16 @@
+{
+  "name": "per.jay.jayeditor",
+  "version": "0.0.1",
+  "displayName": "JayEditor",
+  "description": "This is a simplified editor for different situations",
+  "unity": "2021.1",
+ "keywords": [
+    "JayEditor",
+    "jay"
+  ],
+  "author": {
+    "name": "Jay",
+    "url": "https://bhtj-game.itch.io",
+    "bilibili": "https://space.bilibili.com/347855339"
+  }
+}

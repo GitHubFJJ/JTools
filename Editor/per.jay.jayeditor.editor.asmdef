@@ -1,0 +1,18 @@
+{
+    "name": "per.jay.jayeditor.editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:5fbf17d0cd1b0f84ab45d6fd019c1fe5"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

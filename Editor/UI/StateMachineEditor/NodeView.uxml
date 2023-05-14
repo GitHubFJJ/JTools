@@ -1,0 +1,24 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/JayEditor/Editor/UI/StateMachineEditor/NodeViewStyle.uss?fileID=7433441132597879392&amp;guid=b62ee5310f2e30d4382bb4219dd17bbb&amp;type=3#NodeViewStyle" />
+    <ui:VisualElement name="node-state" />
+    <ui:VisualElement name="node-border" style="background-color: rgb(56, 56, 56);">
+        <ui:VisualElement name="contents">
+            <ui:VisualElement name="top">
+                <ui:VisualElement name="input" style="justify-content: flex-start; align-items: stretch;" />
+                <ui:VisualElement name="divider" class="vertical" />
+                <ui:VisualElement name="title" style="align-items: center; justify-content: flex-start;">
+                    <ui:Label name="title-label" text="SequencerNode" class="unity-text-element unity-label" style="background-color: rgb(56, 56, 56);" />
+                    <ui:VisualElement name="title-button-container">
+                        <ui:VisualElement name="collapse-button">
+                            <ui:VisualElement name="icon" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:Label text="Description" display-tooltip-when-elided="true" name="description" />
+                <ui:VisualElement name="divider" />
+                <ui:VisualElement name="output" style="align-items: center; justify-content: center;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="selection-border" picking-mode="Ignore" />
+</ui:UXML>

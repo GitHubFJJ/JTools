@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/JayEditor/Editor/UI/StateMachineEditor/BehaviorTreeViewer.uss?fileID=7433441132597879392&amp;guid=dd62695ce8372954cb8423f77db17357&amp;type=3#BehaviorTreeViewer" />
+    <Style src="project://database/Assets/JayEditor/Editor/UI/StateMachineEditor/BehaviorTreeEditor.uss?fileID=7433441132597879392&amp;guid=04f8dee4ce61c2145883238227915c74&amp;type=3#BehaviorTreeEditor" />
+    <SplitViewer fixed-pane-initial-dimension="300" orientation="Horizontal">
+        <ui:VisualElement name="left-panel" focusable="false" style="flex-direction: column; flex-grow: 1; flex-wrap: nowrap; align-items: stretch; justify-content: flex-start; width: 600px; height: auto;">
+            <ui:Label text="Inspector" display-tooltip-when-elided="true" name="Inspector" />
+            <InspectorViewer style="flex-grow: 1; padding-left: 5px; padding-right: 5px; padding-top: 3px; padding-bottom: 3px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="right-panel" style="flex-grow: 1;">
+            <ui:Label text="BehaviorTree" display-tooltip-when-elided="true" name="BehaviorTree" style="background-color: rgb(40, 40, 40);" />
+            <BehaviorTreeViewer focusable="true" style="flex-grow: 1;" />
+        </ui:VisualElement>
+    </SplitViewer>
+</ui:UXML>
